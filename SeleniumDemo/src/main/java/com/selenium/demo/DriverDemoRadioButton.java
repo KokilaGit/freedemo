@@ -10,12 +10,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class DriverDemoRadioButton {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "/Users/java/dev/tools/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/Kokila/Documents/Selenium/chromedriver");
 		
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get(
-				"file:///Users/java/dev/freedemo/SeleniumDemo/src/main/WebApp/RadioButtonDemo.html");
+				"file:///Users/Kokila/Documents/Selenium/freedemo/SeleniumDemo/src/main/WebApp/RadioButtonDemo.html");
 
 
 
@@ -32,7 +32,7 @@ public class DriverDemoRadioButton {
 
 		}
 
-		driver.close();
+		//driver.close();
 
 	}
 
